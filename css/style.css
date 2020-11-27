@@ -1,0 +1,404 @@
+html,body{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body{
+  overflow: none;
+}
+
+
+
+.navbar{
+  background-color: #23252f!important;
+  top: 0px!important;
+
+  
+
+}
+
+
+.nav-link:hover{
+  color: #28a745!important;
+  border-bottom: 2px solid white;
+  /*background-color: lightgray;*/
+}
+.navbar-toggler{
+	font-size: 8px;
+	height: 35px;
+  background-color:#495464;
+  opacity: .9;
+
+	/*margin-left: 159px!important;*/
+
+}
+.navbar-toggler:hover{
+  color: green;
+  background-color: green;
+}
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-brand{
+	height: 60px!important;
+	font-size: 24px!important;
+	font-family: arial;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.collapse .active {
+ /*border-bottom: 2px solid white;*/
+ border-radius: fixed
+  
+}
+
+
+  /*border-radius: 1px;*/
+}
+
+
+	@media screen and (max-width: 772px)
+		
+  {
+      header{
+        text-align: center;
+      }
+ 			.navbar-brand{
+				padding:0 10px!important;
+			}	
+			.navbar-collapse{
+				background-color: white!important;
+				
+				padding: 10px 15px!important;
+				margin: 12px;
+			}
+			.nav-link{
+				color: #272a31!important;
+			}
+      .swim{
+        width: 80px!important;
+      }
+
+      /*start login*/
+
+		
+           }
+
+ 
+  /* start main*/
+  .main{
+  	height: 650px!important;
+    background-color: #23252f!important;
+
+
+  }
+  .left-logo{
+  	float: left;
+  	height: 200px;
+  	margin-top: 50px;
+  	/*position: fixed;*/
+
+  }
+.right-logo{
+   float: right;
+  	height: 300px;
+  	margin-top: 100px;
+  	
+  }
+      .logo{
+	      
+			position:relative;
+			animation-name:walking;
+      color:;
+			animation-duration:2s;
+			animation-iteration-count:infinite;
+			}
+			@keyframes walking{
+			
+				0%{
+					left:0px;
+				
+				}
+				50%{
+				
+					top:20%;
+				
+				}
+				100%{
+				
+				left:0px;
+				
+				}
+        .header-right1{
+          position: fixed!important;
+          right: 0px!important;
+          top: 0px!important;
+        }
+			}
+	@media screen and (max-width: 992px)
+			{
+        .main{
+          height: 990px!important;;
+        }
+
+         .logo{
+         	width: 150px;;
+         	margin-top: -100px!important;;
+         }
+         .left-logo{
+         	margin-top: 100px!important;;
+         }
+         .jumbotron{
+         	font-size: 28px;
+         	
+
+         }
+         .lead{
+         	margin-left:-50px!important;
+      
+
+         }
+         .yellow{
+         	width: 50%!important;
+         }
+         video{
+          display: block;
+          margin:500px 0px 20px!important;
+
+         }
+         
+        .img2{
+          margin-top: -20px!important;
+          width: 90%!important
+
+        }
+        }
+
+
+       .edit{
+        	/*position: absolute;*/
+        	color: white!important;
+        	text-align: center;
+        }
+        .jumbotron {
+        	position: absolute;
+        	background: none!important;
+        	margin: 100px 50px!important;
+        	
+
+
+
+
+        }
+        .lead{
+        	font-size: 32px!important;
+        	 line-height: 45px!important;
+
+        }
+
+        .yellow{
+        	color: #ffcc01;
+        	font-size:32px;
+        }
+       
+       
+
+	   video{
+
+      max-width: 100%;
+      height: auto;
+
+	   	
+	   	/*background-image: url(../images/reboo.jpg);*/
+
+      /*background-size: contain!important;*/
+      /*background-position: center!important;*/
+      background-color: #6c757d!important;
+   
+      bottom: 180px!important;
+   
+	   }
+   
+     .smain{
+        margin: 100px!important;
+        text-align:center;
+        text-align: justify;
+     }
+       .what{
+     text-align: center;
+   }
+   .img2{
+ max-width: 100%!important;
+ height: auto;
+box-shadow: 3px 4px 11px rgba(0,0,0,0.3);
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+
+   }
+svg{
+  margin-top: 35px!important;
+}
+.portifilo{
+  background-color: #23252f!important;
+  text-align: center;
+  color: white!important;
+}
+.card .img4{
+height: 330px!important;
+}
+footer{
+  background-color: lightgray!important;
+  padding: 60px 50px 10px;
+  color: #23252f;
+
+
+}
+footer ul li{
+    list-style-type: none;
+     /*color: white;*/
+   }
+
+footer ul li a{
+   color:#23252f;
+}
+footer i{
+  color: white;
+  height: 50px;
+  width: 50px;
+ 
+text-align: center;
+padding-top: 17px;
+margin-left: 4px;
+  background-color: #28a745;;
+  border-radius: 50%;
+}
+footer i:hover{
+  color: white;
+  background-color:#ffc107;
+}
+.Fatma{
+  color: #23252f!important;
+}
+#back-top
+ {
+    /*background: #9F78FF;*/
+    height: 50px;
+    width: 50px;
+    right: 31px;
+    bottom: 18px;
+    position: fixed;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 48px;
+    border: 2px solid transparent;
+  }
+
+
+  /*start about.html*/
+  .about{
+    background-color: #e8e8e8;
+  }
+  .filter{
+    height: 255px;
+    width: 255px;
+  
+  }
+  .shop{
+    margin-top: 80px;
+        font-size: 70px;
+    display: block;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 4px;
+}
+
+  #select{
+ width:190px;  
+     width: 100%;
+    height: 45px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 11px 19px 11px 18px;
+    color: #616875;
+    line-height: 20px;
+    border: 1px solid #ededed;
+    margin-bottom: 20px;
+    outline: none;
+} 
+}
+#select option{
+  width:150px; 
+  padding-right: 50px;  
+}
+  .alert{
+              
+              display: none;
+          }
+ /*sign up*/
+
+          
+          .btn-signup{
+              
+              
+              
+              background-color: #28a745;
+              color: azure;
+              display: block;
+              margin: auto;
+          }
+          
+          .alert{
+              
+              display: none;
+          }
+       .signup{
+        background-color:#f6f6f6;
+       }
+       footer button{
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+       }
+        footer button:focus{
+          outline: none;
+        }
+        footer button:hover{
+          color: white;
+          background-color: #ffc107;
+        }
+        /*add body background color*/
+     .but1{
+                background-color: #dbf6e9;
+                
+            }
+            .but2{
+                background-color:white;
+                
+            }
+            
+
+/*add image in image in accessories*/
+      .popular-img{
+          position: relative!important;
+
+      }
+    .top-right {
+        position: absolute!important;;
+        top: 8px;
+        right: 16px;
+}
+.header1{
+  margin-top: 100px!important;
+}
