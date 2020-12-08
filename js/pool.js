@@ -9,16 +9,16 @@
                });
                 });
                 });
-           $(function() {
-    //$("html").niceScroll({cursorcolor:"", });
-    $("html").niceScroll({cursorcolor:"#28a745",cursorwidth:"10px",cursorheight:"50px",cursorborder:"2px solid black",scrollspeed:"60",margintop:"200px",zindex:"10000"});
-    // $("html").niceScroll({cursorcolor:"lightblue",scrollspeed:"100",cursorborder:"1px solid gray"});
+  //          $(function() {
+  //   //$("html").niceScroll({cursorcolor:"", });
+  //   $("html").niceScroll({cursorcolor:"#28a745",cursorwidth:"10px",cursorheight:"50px",cursorborder:"2px solid black",scrollspeed:"60",margintop:"200px",zindex:"10000"});
+  //   // $("html").niceScroll({cursorcolor:"lightblue",scrollspeed:"100",cursorborder:"1px solid gray"});
 
   
   
 
   
-  });
+  // });
    
   
 
