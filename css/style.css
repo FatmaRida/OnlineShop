@@ -45,11 +45,11 @@ body{
 }
 
 .navbar-brand{
-	height: 60px!important;
+	height: 40px!important;
 	font-size: 24px!important;
 	font-family: arial;
-  height: 50px;
-  width: 50px;
+  
+  width: 30px;
   border-radius: 50%;
 }
 .collapse .active {
@@ -63,9 +63,13 @@ body{
 }
 
 
-	@media screen and (max-width: 772px)
+	@media screen and (max-width: 660px)
 		
   {
+    #get{
+      display: block!important;
+      margin-left:550px!important;
+    }
       header{
         text-align: center;
       }
@@ -84,6 +88,8 @@ body{
       .swim{
         width: 80px!important;
       }
+
+
 
       /*start login*/
 
@@ -160,7 +166,7 @@ body{
 
          }
          .lead{
-         	margin-left:-50px!important;
+         	margin-left:-20px!important;
       
 
          }
