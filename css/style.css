@@ -99,7 +99,7 @@ body{
  
   /* start main*/
   .main{
-  	height: 650px!important;
+  	height: auto!important;
     background-color: #23252f!important;
 
 
@@ -149,9 +149,7 @@ body{
 			}
 	@media screen and (max-width: 992px)
 			{
-        .main{
-          height: 990px!important;;
-        }
+        
 
          .logo{
          	width: 150px;;
